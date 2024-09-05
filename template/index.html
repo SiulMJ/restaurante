@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %} inicio {% endblock %}
+
+{%block link %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/base.css')}}">
+{% endblock %}
+
+{% block content %}
+<div class="navbar">
+  <ul>
+    <img src="{{ url_for('static', filename='img/imagen1.jfif') }}" class="logo">
+      <li><a href="/menu">Menú</a></li>
+      <li><a href="/pedidos">Pedidos</a></li>
+      <li><a href="/promociones">Promociones</a></li>
+      <li><a href="/ubicacion">Ubicacion</a></li>
+  </ul>
+</div>
+
+
+
+{% endblock %}
