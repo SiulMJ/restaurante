@@ -3,19 +3,28 @@
 {% block title %} inicio {% endblock %}
 
 {%block link %}
-<link rel="stylesheet" href="{{url_for('static', filename='css/base.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/base.css')}}">
 {% endblock %}
 
 {% block content %}
-<div class="navbar">
-  <ul>
-    <img src="{{ url_for('static', filename='img/imagen1.jfif') }}" class="logo">
-      <li><a href="/menu">Menú</a></li>
-      <li><a href="/pedidos">Pedidos</a></li>
-      <li><a href="/promociones">Promociones</a></li>
-      <li><a href="/ubicacion">Ubicacion</a></li>
-  </ul>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="/">Menú</a>
+        <a class="nav-link" href="/pedidos">Pedidos</a>
+        <a class="nav-link" href="/catalogo">Catalogo</a>
+        <a class="nav-link" href="/promociones">Promociones</a>
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="imagen">
 </div>
+
 
 
 

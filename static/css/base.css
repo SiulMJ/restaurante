@@ -1,33 +1,8 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.logo {
-    height: 64px;
-    width: 64px;
-    border-radius: 30%;
-}
-
-.navbar {
-    position: fixed;
-    top: 0;
-    background-color: #B88B5C;
+.imagen{
+    height: 400px;
     width: 100%;
-}
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.navbar li a {
-    display: block;
-    color: black;
-    font-family: 'arial';
-    text-align: center;
-    margin-top: 20px;
-    padding: 14px 18px;
-    text-decoration: none;
+    background-image: url("/static/img/imagen1.jfif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
