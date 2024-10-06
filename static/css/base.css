@@ -1,7 +1,7 @@
 .imagen{
-    height: 400px;
+    height: 350px;
     width: 100%;
-    background-image: url("/static/img/imagen1.jfif");
+    background-image: url("/static/img/opi.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
